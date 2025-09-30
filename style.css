@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Rincón de la Empanada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      text-align: center;
+      margin: 0;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    a.boton {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.boton:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido a El Rincón de la Empanada</h1>
+  <p>
+    <a href="https://openai.com/es-ES/chatgpt/" target="_blank" class="boton">
+      Ir a ChatGPT en español
+    </a>
+  </p>
+</body>
+</html>
